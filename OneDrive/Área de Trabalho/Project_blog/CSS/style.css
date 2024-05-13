@@ -1,0 +1,244 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #161b22;
+    font-family: "Poppins";
+}
+h2{
+    font-family: 'Square';
+    font-size: 40px;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #b6c8ff;
+    transition: 0.4s;
+}
+a:hover{
+    color: #37a1f7;
+
+}
+
+#nav-bar{
+
+    background-color: #161b22;
+    padding: 1.5rem 2.5rem;
+    border-bottom: 1px solid #ddd;
+
+    
+}
+#navbar-inner{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Square";
+
+}
+#navbar-inner img{
+    margin: -10px -10px -10px -10px;
+    width: 100px;
+    
+}
+#nav-links{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+   
+}
+#nav-links img{
+    width: 30px; 
+}
+#nav-links a{
+    color: #fff;
+}
+#nightmode a{
+    display: flex;
+    align-items: center;
+
+}
+#nightmode img{
+    
+    margin: 0px 10px 0px 10px;
+    
+   
+}
+
+.container{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem 2.5rem;
+    max-width: 1200PX;
+    margin: 0 auto;
+
+}
+#posts-container{
+    flex: 3 1 0;
+}
+#post{
+    margin-bottom: 2.5rem;
+}
+#post img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.description{
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+#title,
+#tragetoria,
+#cursos,
+#Experiencia, 
+.author{
+    margin-bottom: 1rem;
+}
+
+#title,
+#tragetoria,
+#cursos,
+#Experiencia
+{
+    font-size: 2rem;
+}
+
+.author{
+    color: #fff;
+    font-weight: bold;
+}
+
+#sidebar{
+    flex: 1 1 0;
+}
+
+#search-bar,
+#categories,
+#tags{
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+#search-bar h4,
+#categories h4,
+#tags h4{
+    color: #b6c8ff;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+
+#search-bar input{
+    padding: .5rem .3rem;
+    border: 1px solid #ccc;
+}
+
+#search-bar input[type="submit"]{
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: 1.5s;
+    background-color: #ebebeb;
+    
+}
+.Div-P{
+    padding-top: 15px;
+    color:#ccc;
+    font-weight: bold;
+}
+#search-bar input[type="submit"]:hover{
+    background-color: #37a1f7;
+
+}
+#categories li{
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+#tags-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+#tags-container a{
+    background-color: #ebebeb;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.3rem;
+}
+/*Contatos*/
+.contatos{
+    text-align: center;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: 0.4s;
+}
+.contatos:hover{
+    color: #a6abd8;
+}
+.contatos h1{
+    margin-bottom: .5rem;
+    color: #fff;
+    
+}
+
+.contatos li{
+    font-family: "VarsityTeam";
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1%;
+
+}
+.contatos img{
+    width: 20px;
+}
+/* rodapé */
+#footer{
+    border-top: 2px solid #ebebeb;
+    padding: 3rem;
+    text-align: center;
+    background-color: #161b22;
+    
+}
+footer h2,
+footer p,
+footer h5{
+    margin-bottom: 1rem ;
+    color: #fff;
+}
+
+
+
+/* CELULAR */
+
+@media(max-width: 450px){
+    .container{
+        flex-wrap: wrap;
+    }
+    #navbar-inner h2{
+        font-size: 20px;
+    }
+    #nav-bar {
+        background-color: #ebebeb;
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid #ddd;
+    }
+    #navbar-inner img {
+        margin: -10px 5px -5px -10px;
+        width: 70px;
+    }
+}
